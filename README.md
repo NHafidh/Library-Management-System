@@ -1,21 +1,21 @@
 # 📚 Digital Library System (C++)
 
-Sebuah aplikasi *Command Line Interface* (CLI) berbasis bahasa C++ untuk mengelola sistem perpustakaan sederhana. Project ini dibuat untuk melatih pemahaman tentang **Struct, Vector, Relational Data, dan File I/O**.
+A Command Line Interface (CLI) application built with C++ to manage a simple library system. This project was created to practice and demonstrate core programming concepts including **Structs, Vectors, Relational Data, and File I/O**.
 
-## ✨ Fitur Utama
-- **CRUD Buku**: Tambah, Lihat, Ubah, dan Hapus data buku.
-- **Sistem Peminjaman**: Peminjam bisa meminjam buku (stok otomatis berkurang).
-- **Sistem Pengembalian**: Mengembalikan buku dengan validasi nama peminjam dan judul buku.
-- **Riwayat Peminjam**: Melihat daftar orang yang sedang meminjam buku.
-- **Penyimpanan Permanen (File I/O)**: Data buku dan peminjaman disimpan ke dalam file `.txt` sehingga tidak hilang saat program ditutup.
-- **Validasi Input**: Mencegah input kosong, ISBN yang salah, atau jumlah copy negatif.
+## ✨ Key Features
+- **Book CRUD**: Create, Read, Update, and Delete book records.
+- **Borrowing System**: Users can borrow books (inventory automatically decreases).
+- **Returning System**: Return books with validation to ensure the borrower's name and book title match the records.
+- **Borrower History**: View a list of users who currently have books borrowed.
+- **Permanent Storage (File I/O)**: All book and borrow records are automatically saved to `.txt` files, so data is not lost when the program is closed.
+- **Input Validation**: Prevents empty inputs, invalid ISBN formats, and negative copy counts.
 
-## 🛠️ Cara Menjalankan Program
-1. Pastikan kamu sudah menginstal compiler C++ (seperti `g++` atau MinGW).
-2. Clone repository ini:
+## 🛠️ How to Run the Program
+1. Ensure you have a C++ compiler installed (e.g., `g++` or MinGW).
+2. Clone this repository:
    ```bash
-   git clone https://github.com/USERNAME-KAMU/Digital-Library-System.git
-3. Compile file C++:
+   git clone https://github.com/NHafidh/Library-Management-System.git
+3. Navigate to the project directory and compile the C++ file:
    g++ LMS.cpp -o library
-4. Jalankan Program:
+4. Run the program:
    ./library
