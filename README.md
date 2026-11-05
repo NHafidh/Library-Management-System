@@ -16,6 +16,8 @@ A Command Line Interface (CLI) application built with C++ to manage a simple lib
    ```bash
    git clone https://github.com/NHafidh/Library-Management-System.git
 3. Navigate to the project directory and compile the C++ file:
+    ```bash
    g++ LMS.cpp -o library
 4. Run the program:
+    ```bash
    ./library
